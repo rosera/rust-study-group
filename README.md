@@ -24,7 +24,7 @@ nix-shell --pure
 * Ref: [Welcome to Comprehensive Rust](https://google.github.io/comprehensive-rust/index.html)
 
 
-- [ ] [Day One](TBC) - Basic Rust, ownership and the borrow checker
+- [ ] [Day One](https://github.com/rosera/rust-study-group/blob/main/day_one.md) - Basic Rust, ownership and the borrow checker
 - [ ] [Day Two](TBC) - Compound data types, pattern matching, the standard library
 - [ ] [Day Three](TBC) - Traits and generics, error handling, testing, unsafe Rust
 - [ ] [Day Four](TBC) - Concurrency in Rust and interoperability with other languages
