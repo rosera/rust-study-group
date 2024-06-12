@@ -22,8 +22,34 @@ fn main() {
 
 ## Basic Syntax
 
-* TBC
+* [Types and Values](https://google.github.io/comprehensive-rust/types-and-values/values.html)
+* [Control Flow](https://google.github.io/comprehensive-rust/control-flow-basics.html)
+* [Tuples](https://google.github.io/comprehensive-rust/tuples-and-arrays/tuples.html)
+* [Arrays](https://google.github.io/comprehensive-rust/tuples-and-arrays/iteration.html)
+* [Patterns and Destructuring](https://google.github.io/comprehensive-rust/tuples-and-arrays/destructuring.html)
 
+* Rust use type inference to determine the appropriate type
+
+
+### Example: Type Inference 
+```rust
+fn takes_u32(x: u32) {
+    println!("u32: {x}");
+}
+
+fn takes_i8(y: i8) {
+    println!("i8: {y}");
+}
+
+fn main() {
+    let x = 10;
+    let y = 20;
+
+    takes_u32(x);
+    takes_i8(y);
+    // takes_u32(y);
+}
+```
 
 ## Exercises
 
