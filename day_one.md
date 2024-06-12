@@ -1,10 +1,10 @@
 # Comprehensive Rust 🦀: Fundamentals
 
+## Day One
 * Ref: [Welcome to day 1](https://google.github.io/comprehensive-rust/welcome-day-1.html)
 
-## Day One
 
-### Hello World
+## Hello World
 
 * `Functions` are prefixed with `fn`
 * `Block Scope` are delimited by curly braces
@@ -12,7 +12,7 @@
 * Rust strings are compatible with unicode characters
 * Rust supports [hygenic macros](https://en.wikipedia.org/wiki/Hygienic_macro) e.g. `println!`
 
-Example: Hello World
+### Example: Hello World
 ```rust
 fn main() {
     println!("Hello 🌎!");
@@ -20,5 +20,11 @@ fn main() {
 ```
 
 
-- [x] Basic Syntax
-- [x] Exercises
+## Basic Syntax
+
+* TBC
+
+
+## Exercises
+
+* TBC
