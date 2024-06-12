@@ -9,7 +9,7 @@ pkgs.mkShell {
     ## Rust ecosystem
     rustc      # Rust compiler
     cargo      # Rust dependency manager
-    rustup     # Rust toolchaing installer and updater
+    rustup     # Rust toolchain installer and updater
   ];
 
   APPLICATION   = "Rust";

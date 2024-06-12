@@ -4,11 +4,13 @@ Rust Study Group
 * Ref: [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
 
 ## Setup
-Rust working environment configured using Nix
+Rust development environment configured using Nix Shell (with pure option)
+
 ```
 nix-shell --pure
 ```
 
+> Nix definition file uses `shell.nix`
 
 ## Ecosystem
 
